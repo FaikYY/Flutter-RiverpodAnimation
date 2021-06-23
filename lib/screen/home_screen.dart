@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'complex_animation.dart';
-import 'complex_animation2.dart';
-import 'counter.dart';
+import 'animation_screen.dart';
+import 'animation2_screen.dart';
+import 'counter_screen.dart';
 
 /////////// VARIABLES \\\\\\\\\\\\\
 const text_style_header = TextStyle(
@@ -16,7 +16,7 @@ const text_style = TextStyle(
 );
 ///////////////////////////////////
 
-class Home extends ConsumerWidget {
+class HomeScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, ScopedReader watch) {
     return Scaffold(
@@ -52,7 +52,8 @@ class Home extends ConsumerWidget {
                 },
                 child: Text('Complex Animation1'),
                 style: ElevatedButton.styleFrom(
-                  primary: watch(colorChangeProvider).customColor,
+                  // primary: watch(colorChangeProvider).customColor,
+                  primary: Colors.blue,
                 ),
               ),
               ElevatedButton(

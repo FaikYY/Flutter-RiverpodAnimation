@@ -45,8 +45,8 @@ class ColorStateNotifier extends StateNotifier<ColorChangeNotifier> {
 }
 ///////////////////////////////////////////////////////////
 
-class ComplexAnimation2 extends StatelessWidget {
-  const ComplexAnimation2({
+class Animation2Screen extends StatelessWidget {
+  const Animation2Screen({
     Key key,
   }) : super(key: key);
 

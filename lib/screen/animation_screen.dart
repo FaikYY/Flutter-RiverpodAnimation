@@ -40,8 +40,8 @@ class AdvanceNotifier extends StateNotifier<Properties> {
 }
 ///////////////////////////////
 
-class ComplexAnimation extends StatelessWidget {
-  const ComplexAnimation({
+class AnimationScreen extends StatelessWidget {
+  const AnimationScreen({
     Key key,
   }) : super(key: key);
 

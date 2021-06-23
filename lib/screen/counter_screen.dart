@@ -23,7 +23,7 @@ class CounterNotifier extends StateNotifier<int> {
 }
 ///////////////////////////////////////////////////
 
-class CounterApp extends StatelessWidget {
+class CounterScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
